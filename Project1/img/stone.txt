@@ -1,0 +1,15 @@
+      )
+      \
+       \  
+        *
+         \
+         
+           ___
+          |   \  this is stone
+          /    ]
+          [____/
+                     
+                      O   this is shepherd
+                     \|/
+                      |
+                     / \

@@ -1,0 +1,126 @@
+12
+ 
+0
+image shepherd.txt
+text-begin
+After the villagers has been tricked by the shepherd child for three times, they dicided not to trust him and get him out of the village. The shepherd was really sad, so he went above hills and came to a river valley which has a stone bridge cross over. The end of the bridge is a tall, grand castle. Suddenly, a stone just fall on shepherd's head. "Ouch!, What the hell is this?" , he said.
+[d] pick up the stone
+[f] throw the stone into the river valley
+text-end
+goto d 1
+goto f 2
+end
+
+1
+image stone.txt 
+text-begin
+When he picked up the stone, he saw a beam shining in the stone. He wasn't sure if it is a diamond in it, but he was willing to test for it. He began tossing the stone hard onto the floor. After trying for 49 days, the stone suddenly break into pieces, and at the core of it is a golden ring! Although it's not the same as he expect, he was still excited about it. He worn up the ring and something strange happen! He saw a electronic screen appeared in front of his eyes. On the screen is a short line:
+Congratulation! The ring you got is the "load" of ring, and the power of the ring is that you can move to other places in a second. Here are two options:
+[d] GO TO VISIT A ACTIVIE VOLCANO.
+[f] WE CHOOSE TO GO TO THE MOON!
+text-end
+
+goto d 3
+goto f 4
+end
+
+2
+image wand.txt
+text-begin
+When he threw the stone hard into the river, he heard a sound. "Ouch! What the world is this?", said the sound. Then, he saw a goddess floating out of the water surface and said, "Which stone is yours? The goldern one or the silver one?" The shepherd was going to answer but was interupted by the goddess, "Nice. Since your honest, I'll send you a magic wand. It's a from a guy called Harry P what... whatever, it's not important." So the shepherd got a wand at a wierd situation. Then he dicided to sold the wand at a nearby market.
+text-end
+
+goto d 5
+end
+
+3
+image ring.txt
+text-begin
+The shepherd thought, "Wow, volcano. It must be Mt. FruJi. I am always wanting to go to Japan, yeah!" He close his eyes and opened again. The view surrounded him has changed. However, he was not standing on the snow but on the hot soil; he couldn't see the magnificence scenery but the dangerous flame coming out from holes all around!
+While he was still shocked about these, a little creature jumped out and said, "Hey, you shouldn't take Gollum's ring. The lord of ring is Gollum's! You should give the ring to me and I will give you a gift to thank you." After finished those words, it grabbed the ring away from shepherd's hand at a tremendous speed and disspear right away. Shepherd looked at his hand and found a green bean in his hand. 
+text-end
+goto d 7
+end
+
+4
+image moon.txt
+text-begin
+When he chose the second option, a storm appeared and surrounded him. He felt the world started to spin and become fatser and faster, and he became to lose his conscious...
+
+When him awaked, he realized he was sitting by a dashboard, and he looked through the window and realized that he was not on the moon but on the spaceship! He was really confused at first, but he suddenely thought of that when commander Armstrong and another clue landed on the moon, the left one was controlling the spaceship around the moon to wait for the mossion was accomplished. "Damn it, I don't want this kind of moon travel! It's enough, I'm going home and leave Armstrong and the no-name-clue on the moon. Ha! Ha! Ha! I'm coming home, I'm coming home, to tell the world I'm coming home... Umm, where should I go first?"
+[d] Wandering around the space for a while.
+[f] Go home right away.  
+text-end
+goto d 6
+goto f 8
+end
+
+5
+image market.txt
+text-begin
+On the way to the market, a man with a goat was heading the same way as him. Shepherd stoke up a conversation with him, 
+"Hey, I'm go to market, where are you going?" 
+"I'm go to the market ,too" ,the man said.
+"Wow, I just got a wand and I want to sold it on the market. What about you? Are you going to sold that sheep at the market?"
+"Yeah, I got this goat few seconds ago. Tell you secretly, this goat is actially a goast! I tricked it and then it become a goat! Cool, huh?"
+They had a good(or sacry) talk, and they finally arrived in the market. The man went to sell his goat and shepherd met an old man, "Hey, young kid. Your wand seems great, I would like to buy it. I don't have money but have two special stuffs. One is a bean that can grow a grand tree to the place where the giant lives; another is a map that will lead you to the teasure."
+[d] I want bean.
+[f] No, the map is better.
+text-end
+goto d 7
+goto f 8
+end
+
+6
+image space.txt
+text-begin
+He drove the spaceship around without purpose. On the way, he saw void and boring view surroud him. He started to fell bored. Suddenely, a strong light appeared in front of his face. The light was so strong that he closed his eyes. When he opened his eyes again, he saw a gorgeous spaceship floating in the space. Then an alien went down the ship and ate a piece of translate konjac. It said, "Hey, you. I'm a millinaire in the space, but I'm going to died and I have no kids, so I want to give my legency to whoever I meet in the space. You are the guy I want!"
+The shepherd said, "Unh, well, okay. Thanks a millinaire." Then the alien disappeared and he got a little metal ball. However, he couidn't open it. So he put it in his mouth, and he felt the ball started to transform. He spewed it and saw some words on it:" Here is a riddle ready to be solved, you have to crack it and you can get the stuff in it."
+text-end
+goto d 9
+end
+
+7
+image tree.txt
+text-begin
+He planted the bean just like the fairly tales. The bean did grew very fast, and it rached the sky jsut in one nigth. The shepherd climbed up the tree and reached the top of the cloud. He saw a big castle just as he expected. He went into the castle and stole the golden egg besides the golden ham. He returned the ground and took research into the egg. He sew some words on it:
+If you are Jack, you can open it right away, but if you're not, you have to crack the riddle first! 
+text-end
+goto d 9
+end
+
+8
+image box.txt
+text-begin
+He follow the map and came to a island with a ship. There, he met a man that was trapped on the island for ten years. Shepherd promised to take he home, so the man was really greatful and give him a box that he found on the island. The box was really old, but the words on it were still clear: To open the box, you must insert the right account and password.
+text-end
+goto d 9
+end
+
+9
+image hint.txt
+text-begin
+Wlecome to riddle checkpoint! The account is the pages you have been to. This is the ONLY  hint I will give you and if you get wrong for twice, you will get a punishment! Good luck!
+text-end
+end
+
+10
+image win.txt
+text-begin
+"cluck", the stuff opened. Inside it is a little stone. However, it's not only a normal stone but a valuable mineral that is never found in the whole universe! Shepherd was really happy, he took the stone and use it to buy sheep and some land. Since that, shepherd lived happily with his sheep.
+
+                                                ===THE END===
+text-end
+goto d 0
+end
+
+11
+image apple.txt
+text-begin
+"Ouch!", a little boy who is sitting under the apple tree said. He just woke up from a long long dream because of the dropping apple. He dreams that he experiences a wierd adventure, and he remembered he almost win the game. He sighs deeply and continus to do his math under the apple tree.
+
+                                               ===THE END===
+text-end
+goto d 0
+end
+

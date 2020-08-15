@@ -6,8 +6,8 @@
 1023 --> 二分搜  
 2333 --> C-style string  
 443  --> 遞迴1  
-462  --> C-style string
-618  --> 編寫函數
-689  --> C++ string
-802  --> linked list
-896  --> 遞迴2
+462  --> C-style string  
+618  --> 編寫函數  
+689  --> C++ string  
+802  --> linked list  
+896  --> 遞迴2  
